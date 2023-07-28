@@ -1,0 +1,28 @@
+.cartItemCont {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+
+  margin: 20px;
+}
+
+.cartImg {
+  width: 70px;
+}
+
+.cartItemInfoCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cartItemPrice,
+.cartItemSize,
+.cartItemName {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.cartItemPrice > span {
+  font-weight: bold;
+}
